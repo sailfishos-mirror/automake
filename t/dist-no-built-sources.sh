@@ -19,12 +19,12 @@
 . test-init.sh
 
 # the tests are almost the same, so do a loop with a couple conditionals.
-# 
+#
 # test-init.sh creates configure.ac with an AM_INIT_AUTOMAKE call with
 # no options. The default is [no-no-]dist-built-sources, i.e., distdir
 # does depend on $(BUILT_SOURCES), so test that first. (There is no
 # Automake option named dist-built-sources, only --no-no-dist-built-sources.)
-# 
+#
 # The second time around, add the no-dist-built-sources option,
 # and the distdir target should not depend on anything.
 #

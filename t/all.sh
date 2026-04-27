@@ -27,7 +27,7 @@ $AUTOMAKE
 
 for target in $targets; do
   grep "${target}-local" Makefile.in # For debugging.
-  
+
   # This grep fails, thus the test is listed in XFAIL.
   # We're checking that (e.g.) all-am does not depend on all-local,
   # but why?

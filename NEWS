@@ -62,7 +62,7 @@ New in 1.18 (2025-05-25):
   - The test infrastructure sets the CONFIG_SITE environment variable to
     /dev/null, to avoid the local system's Autoconf site defaults from
     breaking the test environment. (bug#76622)
-    
+
   - AM_SILENT_RULES once again always ends with a newline. (bug#72267)
 
   - AM_SANITY_CHECK now outputs "no" on failure, so that a complete line

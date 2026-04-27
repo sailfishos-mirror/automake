@@ -5744,7 +5744,7 @@ release), and Libtool in another (e.g., for general system use),
 @code{LT_INIT} won't be defined.
 
 The best solution is to run @command{libtoolize} in the tree that is
-using the separately-installed Automake.  That will copy 
+using the separately-installed Automake.  That will copy
 @file{libtool.m4} and the other Libtool M4 files and scripts into your
 package, including @file{ltmain.sh} (see previous section).  If you
 have subpackages that use Libtool independently, you'll need to run

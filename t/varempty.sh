@@ -18,7 +18,7 @@
 #   Use of uninitialized value $var in string eq at
 #   .../lib/Automake/Variable.pm line 754, <GEN2> line 3.
 # (in scan_variable_expansions)
-# 
+#
 # This showed up with the NetworkManager and other packages in Fedora:
 # https://lists.gnu.org/archive/html/automake/2024-06/msg00085.html
 # (The actual purpose of the "$()" is unclear.)

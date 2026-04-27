@@ -547,7 +547,7 @@
   release (x.y.z), say 1.17.1, we would have 1.17.0.91 for the initial
   post-release development version, 1.17.0.92 for the first pretest,
   etc. (Just "make" will fail after this; do "make bootstrap", as below.)
-  
+
   Before 1.17 (July 2024), we used suffixed letters for pretests, as is
   traditional, but deficient sorting algorithms did not like that. The
   code in lib/Automake/Version.pm, along with the regexp in
@@ -622,7 +622,7 @@
   tarballs (again, so hopefully no changes have been made in the
   meantime), and invoke the 'gnupload' script sign and upload them to
   the correct locations.
-  
+
   There can be a delay of up to several minutes before the new files
   appear on the server.
 
@@ -678,7 +678,7 @@
   if it is an alpha or beta release, announcement should be sent also
   to <platform-testers@gnu.org>, to maximize the possibility of early
   testing on the widest variety of systems.
-  
+
   Finally, copy an abridged version of the announcement into the NEWS
   feed at: <https://savannah.gnu.org/projects/automake>.  Be sure to
   link a version to the complete announcement (as archived at any of the
@@ -691,7 +691,7 @@
   instructions in
   https://gnu.org/prep/maintain/maintain.html#Automated-Upload-Registration.
   The FSF sysadmins may need to be reminded to install new keys.
-  
+
   A preliminary step is to check
   https://savannah.gnu.org/project/release-gpgkeys.php?group=automake
   which has a link to download automake-keyring.gpg; the new key should

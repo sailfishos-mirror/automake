@@ -5668,7 +5668,7 @@ sub scan_autoconf_files ()
     {
       require_conf_file ($required_aux_file{$file}->get, FOREIGN, $file)
     }
-  
+
   my $auxdir_install_dot_sh = "$config_aux_dir/install.sh";
   # Maybe there is a way to report the line number of the
   # AC_CONFIG_AUX_DIR call in configure.ac? Don't know.

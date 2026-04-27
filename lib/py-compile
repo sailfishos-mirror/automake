@@ -1,7 +1,7 @@
 #!/bin/sh
 # py-compile - Compile a Python program
 
-scriptversion=2025-06-18.21; # UTC
+scriptversion=2026-04-27.20; # UTC
 
 # Copyright (C) 2000-2026 Free Software Foundation, Inc.
 
@@ -49,7 +49,7 @@ if $PYTHON -V 2>/dev/null | grep -i python >/dev/null; then :; else
    exit 0
   fi
 fi
-  
+
 usage_error ()
 {
   echo "$me: $*" >&2

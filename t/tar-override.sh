@@ -16,7 +16,7 @@
 
 # Check that the user can override the tar program used by "make dist"
 # at runtime, by redefining the 'TAR' environment variable.
-# 
+#
 # Currently this works only when the tar format used is 'v7';
 # as of 2025 (automake-1.18), this is no longer the default,
 # so force that format in our test setup.
